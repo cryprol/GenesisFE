@@ -1,26 +1,31 @@
 -- Settings
 
-allowshiftlock = true -- Shiftlock to Rigs
-ctrltp = true -- Control Click TP
-placeholders = true -- Transparent Parts showing Hats when you don't have them
-clickfling = false -- Click = Fling
-highlightflingtargets = true -- Highlights Flings
-discharscripts = true -- Disable Character Scripts
-flingchangestate = true -- Fling with Whole body
-hidedeatheffect = true -- Hides the Damage Border when you Die (Respawning)
-respawntp = 3 -- Respawn TP Mode
--- 0 - Spawn
--- 1 - Close Random TP
--- 2 - Behind Fake Character
--- 3 - Hide Body
-breakjointsmethod = 1 -- Breakjoints Mode
--- 1 - Health + Breakjoints (Most Support)
--- 2 - Health or Breakjoints
--- 3 - Breakjoints
-simrad = true -- Simulation Radius
+getgenv().Settings = {
+    allowshiftlock = true,  -- Shiftlock to Rigs
+    ctrltp = true,  -- Control Click TP
+    placeholders = false,  -- Transparent Parts showing Hats when you don't have them
+    clickfling = true,  -- Click = Fling
+    highlightflingtargets = true,  -- Highlights Flings
+    discharscripts = true,  -- Disable Character Scripts
+    flingchangestate = true,  -- Fling with Whole Body
+    hidedeatheffect = true,  -- Hides the Damage Border when you Die (Respawning)
+    
+    respawntp = 3,  -- Respawn TP Mode
+    -- 0 - Spawn
+    -- 1 - Close Random TP
+    -- 2 - Behind Fake Character
+    -- 3 - Hide Body
 
-DisableFX = false -- Disable/Enable FXs
-DisableFlingHealthBar = false  -- Disable/Enable Fling Bar
+    breakjointsmethod = 1,  -- Breakjoints Mode
+    -- 1 - Health + Breakjoints (Most Support)
+    -- 2 - Health or Breakjoints
+    -- 3 - Breakjoints
+
+    simrad = true,  -- Simulation Radius
+
+    DisableFX = false,  -- Disable/Enable FXs
+    DisableFlingHealthBar = false  -- Disable/Enable Fling Bar
+}
 
 -- Main Script
 
